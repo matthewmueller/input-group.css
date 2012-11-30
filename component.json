@@ -1,0 +1,15 @@
+{
+  "name": "input-group.css",
+  "repo": "matthewmueller/input-group.css",
+  "description": "custom radio and checkbox inputs",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "kelonye/foundation-icons" : "*"
+  },
+  "license": "MIT",
+  "styles": [
+    "input-group.css"
+  ]
+}

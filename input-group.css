@@ -1,0 +1,47 @@
+/**
+ * input-group.css
+ *
+ * Create custom radio and checkbox inputs. Good for icon inputs.
+ *
+ * Radio Example:
+ *
+ * <div class="input-group">
+ *   <input type="radio" id="1">
+ *   <label for="1" class="icon-globe"></label>
+ *   <input type="radio" id="2">
+ *   <label for="2" class="icon-settings"></label>
+ *   <input type="radio" id="3">
+ *   <label for="3" class="icon-ideas"></label>
+ * </div>
+ *
+ * Checkbox Example:
+ *
+ * <div class="input-group">
+ *   <input type="checkbox" id="4">
+ *   <label for="4" class="icon-globe"></label>
+ *   <input type="checkbox" id="5">
+ *   <label for="5" class="icon-settings"></label>
+ *   <input type="checkbox" id="6">
+ *   <label for="6" class="icon-ideas"></label>
+ * </div>
+ *
+ */
+
+.input-group {
+  display: inline-block;
+}
+
+.input-group input[type="radio"],
+.input-group input[type="checkbox"] {
+  display: none;
+}
+
+.input-group label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.input-group input[type=radio]:checked + label,
+.input-group input[type=checkbox]:checked + label {
+  color: #1ab2ff;
+}
